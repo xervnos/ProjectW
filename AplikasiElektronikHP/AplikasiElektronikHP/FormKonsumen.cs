@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AplikasiElektronikHP
 {
-    public partial class FormKonsumen : Form
+    public partial class cb_cari : Form
     {
-        public FormKonsumen()
+        public cb_cari()
         {
             InitializeComponent();
         }
