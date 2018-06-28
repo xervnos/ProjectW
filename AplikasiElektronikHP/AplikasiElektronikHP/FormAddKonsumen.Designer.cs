@@ -35,14 +35,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tb_nama = new System.Windows.Forms.TextBox();
+            this.date = new System.Windows.Forms.DateTimePicker();
+            this.cb_jk = new System.Windows.Forms.ComboBox();
+            this.tb_alamat = new System.Windows.Forms.TextBox();
+            this.tb_nik = new System.Windows.Forms.MaskedTextBox();
+            this.tb_norumah = new System.Windows.Forms.MaskedTextBox();
+            this.tb_nohp = new System.Windows.Forms.MaskedTextBox();
+            this.btn_ok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -110,89 +110,89 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "ALAMAT SAAT INI";
             // 
-            // textBox2
+            // tb_nama
             // 
-            this.textBox2.Location = new System.Drawing.Point(102, 60);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 8;
+            this.tb_nama.Location = new System.Drawing.Point(102, 60);
+            this.tb_nama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tb_nama.Name = "tb_nama";
+            this.tb_nama.Size = new System.Drawing.Size(151, 20);
+            this.tb_nama.TabIndex = 8;
             // 
-            // dateTimePicker1
+            // date
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(102, 99);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
-            this.dateTimePicker1.TabIndex = 9;
+            this.date.Location = new System.Drawing.Point(102, 99);
+            this.date.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(151, 20);
+            this.date.TabIndex = 9;
             // 
-            // comboBox1
+            // cb_jk
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_jk.FormattingEnabled = true;
+            this.cb_jk.Items.AddRange(new object[] {
             "LAKI-LAKI",
             "PEREMPUAN"});
-            this.comboBox1.Location = new System.Drawing.Point(102, 147);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 24);
-            this.comboBox1.TabIndex = 10;
+            this.cb_jk.Location = new System.Drawing.Point(102, 147);
+            this.cb_jk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cb_jk.Name = "cb_jk";
+            this.cb_jk.Size = new System.Drawing.Size(151, 24);
+            this.cb_jk.TabIndex = 10;
             // 
-            // textBox3
+            // tb_alamat
             // 
-            this.textBox3.Location = new System.Drawing.Point(381, 13);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 66);
-            this.textBox3.TabIndex = 11;
+            this.tb_alamat.Location = new System.Drawing.Point(381, 13);
+            this.tb_alamat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tb_alamat.Multiline = true;
+            this.tb_alamat.Name = "tb_alamat";
+            this.tb_alamat.Size = new System.Drawing.Size(151, 66);
+            this.tb_alamat.TabIndex = 11;
             // 
-            // maskedTextBox1
+            // tb_nik
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(102, 16);
-            this.maskedTextBox1.Mask = "00-00-00-000000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(151, 20);
-            this.maskedTextBox1.TabIndex = 14;
+            this.tb_nik.Location = new System.Drawing.Point(102, 16);
+            this.tb_nik.Mask = "00-00-00-000000-0000";
+            this.tb_nik.Name = "tb_nik";
+            this.tb_nik.Size = new System.Drawing.Size(151, 20);
+            this.tb_nik.TabIndex = 14;
             // 
-            // maskedTextBox2
+            // tb_norumah
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(381, 103);
-            this.maskedTextBox2.Mask = "0000-0000000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(151, 20);
-            this.maskedTextBox2.TabIndex = 15;
+            this.tb_norumah.Location = new System.Drawing.Point(381, 103);
+            this.tb_norumah.Mask = "0000-0000000";
+            this.tb_norumah.Name = "tb_norumah";
+            this.tb_norumah.Size = new System.Drawing.Size(151, 20);
+            this.tb_norumah.TabIndex = 15;
             // 
-            // maskedTextBox3
+            // tb_nohp
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(381, 147);
-            this.maskedTextBox3.Mask = "0000-0000-0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(151, 20);
-            this.maskedTextBox3.TabIndex = 16;
+            this.tb_nohp.Location = new System.Drawing.Point(381, 147);
+            this.tb_nohp.Mask = "0000-0000-0000";
+            this.tb_nohp.Name = "tb_nohp";
+            this.tb_nohp.Size = new System.Drawing.Size(151, 20);
+            this.tb_nohp.TabIndex = 16;
             // 
-            // button1
+            // btn_ok
             // 
-            this.button1.Location = new System.Drawing.Point(457, 194);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 42);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_ok.Location = new System.Drawing.Point(457, 194);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(75, 42);
+            this.btn_ok.TabIndex = 17;
+            this.btn_ok.Text = "OK";
+            this.btn_ok.UseVisualStyleBackColor = true;
             // 
             // FormAddKonsumen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 257);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btn_ok);
+            this.Controls.Add(this.tb_nohp);
+            this.Controls.Add(this.tb_norumah);
+            this.Controls.Add(this.tb_nik);
+            this.Controls.Add(this.tb_alamat);
+            this.Controls.Add(this.cb_jk);
+            this.Controls.Add(this.date);
+            this.Controls.Add(this.tb_nama);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -201,7 +201,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAddKonsumen";
             this.Text = "TAMBAH DATA KONSUMEN";
             this.Load += new System.EventHandler(this.FormAddKonsumen_Load);
@@ -219,13 +219,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tb_nama;
+        private System.Windows.Forms.DateTimePicker date;
+        private System.Windows.Forms.ComboBox cb_jk;
+        private System.Windows.Forms.TextBox tb_alamat;
+        private System.Windows.Forms.MaskedTextBox tb_nik;
+        private System.Windows.Forms.MaskedTextBox tb_norumah;
+        private System.Windows.Forms.MaskedTextBox tb_nohp;
+        private System.Windows.Forms.Button btn_ok;
     }
 }
